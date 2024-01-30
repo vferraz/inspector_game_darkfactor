@@ -9,7 +9,7 @@ This repository contains data analysis, machine learning models, and causal mach
 - Raw data processing script: `reproduction_package/data_processing.iypnb`
 - Statistical analysis script: `reproduction_package/statistical_analysis.ipynb`
 - Random forest models: `reproduction_package/random_forest_analysis.ipynb`
-- Causal forest models: reproduction_package/causal_forest.ipynb. The models were fine-tuned using grid search and are stored as pipelines for ease of use.
+- Causal forest models: `reproduction_package/causal_forest.ipynb`. The models were fine-tuned using grid search and are stored as pipelines for ease of use.
   - `reproduction_package/ml_models/`: First stage models for causal analysis, saved as `.joblib` files.
   - `reproduction_package/dml_models/`: Second stage Double Machine Learning (DML) models, also saved as `.joblib` files for easy replication and deployment.
  
